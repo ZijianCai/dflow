@@ -16,7 +16,7 @@ train = ShellOPTemplate(
 train = ShellOPTemplate(
     name="train",
     image="kianpu/cgcnn:latest",
-    script=". ~/.bashrc && python /train_artifact/main.py --train-size 10 --val-size 1 --test-size 1 \
+    script=". ~/.bashrc && python /train_artifact/main.py --train-size 10000 --val-size 100 --test-size 100 \
             /train_artifact/root_dir && ls"
     # Will generate /model_best.pth.tar; checkpoint.pth.tar; test_results.csv
     # /predict_artifact/predict.py \
