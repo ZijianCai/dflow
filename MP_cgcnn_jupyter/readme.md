@@ -25,3 +25,4 @@ cd dflow_jupyter
 ```shell
 jupyter notebook
 ```
+4. Docker images should include python, pymatgen, PyTorch and scikit-learn.
