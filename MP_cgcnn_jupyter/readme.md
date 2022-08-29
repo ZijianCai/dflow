@@ -1,4 +1,4 @@
-# dflow-helloworld
+# dflow-MP_cgcnn_jupyter
 This is a simple introduction to dflow, materials screening and machine learning. 
 
 ## Setup
