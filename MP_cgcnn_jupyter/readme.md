@@ -1,5 +1,8 @@
 # dflow-MP_cgcnn_jupyter
-This is a simple introduction to dflow, materials screening and machine learning. 
+This is a simple introduction to dflow, materials screening and machine learning.
+
+![Picture1](https://user-images.githubusercontent.com/47341079/187360757-daa63ae8-9f6f-493b-b0f0-541125c517f6.png)
+
 
 ## Setup
 1. Setup conda environment (assume you have conda installed)
