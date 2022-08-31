@@ -38,5 +38,5 @@ jupyter notebook
 
 3. Note: the screening code will output a csv file (id_prop.csv) to the designed folder (sys.argv[2])
 
-## Prepare CGCNN code:
+## Prepare CGCNN code
 1. The CGCNN code has been prepared, which is from: https://github.com/txie-93/cgcnn
