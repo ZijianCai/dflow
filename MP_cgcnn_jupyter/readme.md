@@ -29,3 +29,14 @@ cd dflow_jupyter
 jupyter notebook
 ```
 4. Docker images should include python, pymatgen, PyTorch and scikit-learn.
+
+
+## Prepare your screening code
+1. Get your API key from materials project: https://legacy.materialsproject.org/open. Use it as your first argument (sys.argv[1])
+
+2. Write your criteria for screening. In the current version, the number of elements (nelements) are applied to screen as a demo. For your onwer purpose, you can write different screening criteria, such as must include certain elements, energy above hull must be smaller than a certain value, band gap must be smaller than a certain value, et al. 
+
+3. Note: the screening code will output a csv file (id_prop.csv) to the designed folder (sys.argv[2])
+
+## Prepare CGCNN code:
+1. The CGCNN code has been prepared, which is from: https://github.com/txie-93/cgcnn
